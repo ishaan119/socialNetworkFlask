@@ -18,3 +18,6 @@ def getUserUpdates(userName):
     for update in get_user_updates(userName):
         str1 += update['message']
     return str1
+
+def getUserUpdates():
+    pass
