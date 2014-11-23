@@ -1,8 +1,9 @@
-from resn import *
 from datetime import datetime
 
-#Create new user
+from resn import *
 
+
+#Create new user
 Dent = {
     'username': 'dent',
     'password': 'password',
