@@ -26,6 +26,9 @@ assert get_user('dent')['last name'] == 'Dent'
 #Friends
 
 create_connection('dent', 'theJoker')
+for friend in get_friend_list('theJoker'):
+    print 'In here'
+    print friend + 'here'
 assert 'dent' in get_friend_list('theJoker')
 assert 'theJoker' in get_friend_list('dent')
 
